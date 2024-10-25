@@ -17,7 +17,11 @@ export default function WorkContent({ work, progress = 0 }: WorkContentProps) {
       <WorkLeft progress={progress}>
         <div className="text-2xl font-medium md:text-3xl xl:text-4xl">{description}</div>
         <span className="text-4xl font-bold tracking-tight md:text-5xl xl:text-6xl">{title}</span>
-        <div className="text-4xl font-bold tracking-tight md:text-2xl xl:text-2xl">{long_description}</div>
+        <div className="text-4xl font-bold tracking-tight md:text-2xl xl:text-2xl">
+          {/* Placeholder for edit_1 content */}
+          {long_description}
+          {/* Placeholder for edit_2 content */}
+        </div>
       </WorkLeft>
       <WorkRight progress={progress}>
         <div className="drop-shadow-2xl sm:mt-10 md:mt-24">
