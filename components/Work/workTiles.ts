@@ -43,7 +43,7 @@ export const workTiles: WorkTile[] = [
   {
     description: `I build`,
     title: 'API & Database Apps',
-    long_description: 'TransactSQL-MsSQL, MySQL, Supabase (Firebase)',
+    long_description: 'TransactSQL-MsSQL, MySQL, Postgress, Supabase (Firebase)',
     image: {
       src: '/static/images/publication-app.webp',
       width: 600,

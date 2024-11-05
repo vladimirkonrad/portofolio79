@@ -15,9 +15,9 @@ export default function WorkContent({ work, progress = 0 }: WorkContentProps) {
   return (
     <WorkContainer>
       <WorkLeft progress={progress}>
-        <div className="text-2xl font-medium md:text-3xl xl:text-4xl">{description}</div>
-        <span className="text-4xl font-bold tracking-tight md:text-5xl xl:text-6xl">{title}</span>
-        <div className="text-4xl font-bold tracking-tight md:text-2xl xl:text-2xl">
+        <div className="text-4xl font-medium md:text-3xl xl:text-4xl">{description}</div>
+        <span className="text-2xl font-bold tracking-tight md:text-5xl xl:text-6xl">{title}</span>
+        <div className="text-2xl font-bold tracking-tight md:text-2xl xl:text-2xl">
           {/* Placeholder for edit_1 content */}
           {long_description}
           {/* Placeholder for edit_2 content */}
