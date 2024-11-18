@@ -14,9 +14,9 @@ const siteMetadata = {
   github: 'https://github.com/vladimirkonrad',
   twitter: 'https://twitter.com/vladimirkonrad',
   facebook: 'https://facebook.com/vladimirkonrad      ',
-  linkedin: 'https://www.linkedin.com/in/vladimirkonrad/',
-  spotify: 'https://open.spotify.com/',
-  steam: 'https://steamcommunity.com/id/vladimirkonrad/',
+  linkedin: 'https://www.linkedin.com/in/vladimir-konrad/',
+  spotify: '#',
+  steam: '#',
   locale: 'en-US',
   comment: {
     provider: 'giscus',
